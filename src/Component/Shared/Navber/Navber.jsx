@@ -36,7 +36,7 @@ const Navber = () => {
                 </div>
             </div>
             {/**main link navber section */}
-            <div className='flex justify-between items-center px-14 py-2 bg-[#ffff]'>
+            <div className='flex  w-full justify-between items-center px-14 py-2 bg-[#ffff]'>
                 {/**nike logo */}
                 <img src="../../../../public/img/_1512076803_93_Nike-mobile.jpg" alt=""  className='w-16'/>
                 {/**nike middle link */}
