@@ -4,6 +4,7 @@ import ShopFirst from '../ShopFirst Sec/ShopFirst';
 import NewWeeksec from '../NewWeek Sec/NewWeeksec';
 import MemberShipSec from '../Membership Sec/MemberShipSec';
 import ShopClassis from '../Shop Classis/ShopClassis';
+import ProductLink from '../Product Link/ProductLink';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
            <NewWeeksec/>
            <ShopClassis/>
            <MemberShipSec/>
+           <ProductLink/>
         </div>
     );
 };
