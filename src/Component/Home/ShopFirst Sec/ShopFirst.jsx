@@ -13,9 +13,9 @@ const ShopFirst = () => {
             </div>
             {/**shop category */}
             <div className=' pt-16'>
-                <div className='flex'>
+                <div className='grid md:grid-cols-2 grid-cols-1 '>
                     <div className='relative'>
-                        <img src="../../../../public/img/nike-just-do-it (1).jpg" alt="" />
+                        <img src="../../../../public/img/nike-just-do-it (1).jpg" alt="" className='w-full'/>
                         <div className='absolute left-14 bottom-10 space-y-2 text-white'>
                             <h4 className='text-xl font-semibold'>Retro Kicks</h4>
                             <h3 className='text-3xl font-semibold'>Vomero 5 & more</h3>
@@ -23,7 +23,7 @@ const ShopFirst = () => {
                         </div>
                     </div>
                     <div className='relative'>
-                        <img src="../../../../public/img/nike-just-do-it (2).jpg" alt="" />
+                        <img src="../../../../public/img/nike-just-do-it (2).jpg" alt="" className='w-full'/>
                         <div className='absolute left-14 bottom-10 space-y-2 text-white'>
                             <h4 className='text-xl font-semibold'>FreeDom and stability</h4>
                             <h3 className='text-3xl font-semibold'>Nike Free Metcon 6</h3>
@@ -31,9 +31,9 @@ const ShopFirst = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex'>
+                <div className='grid md:grid-cols-2 grid-cols-1'>
                     <div className='relative'>
-                        <img src="../../../../public/img/nike-just-do-it (3).jpg" alt="" />
+                        <img src="../../../../public/img/nike-just-do-it (3).jpg" alt="" className='w-full'/>
                         <div className='absolute left-14 bottom-10 space-y-2 text-white'>
                             <h4 className='text-xl font-semibold'>Tranding</h4>
                             <h3 className='text-3xl font-semibold'>Classis Black & White</h3>
@@ -41,7 +41,7 @@ const ShopFirst = () => {
                         </div>
                     </div>
                     <div className='relative'>
-                        <img src="../../../../public/img/nike-just-do-it (3).jpg" alt="" />
+                        <img src="../../../../public/img/nike-just-do-it (3).jpg" alt="" className='w-full'/>
                         <div className='absolute left-14 bottom-10 space-y-2 text-white'>
                             <h4 className='text-xl font-semibold'>New Arriverls</h4>
                             <h3 className='text-3xl font-semibold'>Air Jordan 4 'Oxidized Green</h3>

@@ -6,9 +6,9 @@ const MemberShipSec = () => {
             {/**Nike Membership titile */}
             <h2 className='text-5xl font-sans font-extrabold'>NIKE MEMBERSHIP</h2>
             {/**nike membership card*/}
-            <div className='flex gap-3 pt-8'>
+            <div className='flex flex-wrap justify-center gap-3 pt-8'>
                 <div className='relative'>
-                    <img src="../../../../public/img/nike-just-do-it (13).jpg" alt="" />
+                    <img src="../../../../public/img/nike-just-do-it (13).jpg" alt="" className='w-96 sm:w-100%'/>
                     <div className='absolute left-14 bottom-10 space-y-2 text-white'>
                         <h4 className='text-xl font-semibold'>Sports and Wellens</h4>
                         <h3 className='text-2xl font-semibold'>Movement Where its Your's</h3>
@@ -16,7 +16,7 @@ const MemberShipSec = () => {
                     </div>
                 </div>
                 <div className='relative'>
-                    <img src="../../../../public/img/nike-just-do-it (12).jpg" alt="" />
+                    <img src="../../../../public/img/nike-just-do-it (12).jpg" alt="" className='w-96 sm:w-100%'/>
                     <div className='absolute left-14 bottom-10 space-y-2 text-white'>
                         <h4 className='text-xl font-semibold'>Members product</h4>
                         <h3 className='text-2xl font-semibold'>Your Excluseve Access</h3>
@@ -24,7 +24,7 @@ const MemberShipSec = () => {
                     </div>
                 </div>
                 <div className='relative'>
-                    <img src="../../../../public/img/nike-just-do-it (14).jpg" alt="" />
+                    <img src="../../../../public/img/nike-just-do-it (14).jpg" alt="" className='w-96 sm:w-100%'/>
                     <div className='absolute left-14 bottom-10 space-y-2 text-white'>
                         <h4 className='text-xl font-semibold'>Nike With You</h4>
                         <h3 className='text-2xl font-semibold'>Customize Your Product</h3>
