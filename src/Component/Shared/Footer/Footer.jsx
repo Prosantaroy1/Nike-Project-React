@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='lg:px-14 px-2 divide-solid divide-y-2 pt-10 pb-4 mt-4'>
             <hr className='text-xs '/>
-            <footer className="grid sm:grid-cols-4 grid-cols-2 gap-4  bg-[#ffff] pt-16 pb-8 text-black p-10">
+            <footer className="grid sm:grid-cols-5 grid-cols-2 gap-4  bg-[#ffff] pt-16 pb-8 text-black p-10">
                 <nav className='space-y-3 flex flex-col'>
                     <h6 className="footer-title pb-4">Resources</h6>
                     <a className="link no-underline ">Gift Cards</a>
