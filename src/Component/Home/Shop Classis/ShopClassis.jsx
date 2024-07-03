@@ -12,7 +12,7 @@ import { Pagination } from 'swiper/modules';
 const ShopClassis = () => {
     return (
         <div className='pt-16 pb-4'>
-            <h2 className='text-5xl font-extrabold font-sans px-14 pt-4 pb-8'>SHOP BY CLASSICS</h2>
+            <h2 className='sm:text-5xl text-4xl lg:text-start text-center font-extrabold font-sans px-14 pt-4 pb-8'>SHOP BY CLASSICS</h2>
             {/**shop card classies */}
             <Swiper
                 slidesPerView={1}

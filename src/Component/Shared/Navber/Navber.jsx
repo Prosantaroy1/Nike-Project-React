@@ -5,15 +5,15 @@ import { GrFavorite,GrAid } from "react-icons/gr";
 
 const Navber = () => {
     return (
-        <div className='lg:flex flex-col sm:hidden'>
+        <div className=' '>
             {/**Top navber section*/}
-            <div className='flex justify-between items-center bg-slate-200 px-14'>
+            <div className='sm:flex justify-between  hidden  items-center bg-slate-200 px-14'>
                 <div className='flex items-center gap-6'>
                     <GrYoga className='text-2xl' />
                     <PiStarAndCrescentFill className='text-2xl' />
                 </div>
-                <div className='items-center'>
-                    <ul className="menu sm:hidden lg:flex menu-horizontal px-1">
+                <div className='items-center sm:block hidden'>
+                    <ul className="menu menu-horizontal px-1">
                         <li><a>Find a Store</a></li>
                         {/**help link */}
                         <li>
@@ -34,19 +34,14 @@ const Navber = () => {
                         <li><a>Sign In</a></li>
                     </ul>
                 </div>
-                {/**responsive moblie */}
-                <div className='sm:flex lg:hidden'>
-                    <ul>
-                      <li><a>Sign In</a></li>
-                    </ul>
-                </div>
+                
             </div>
             {/**main link navber section */}
-            <div className='flex  w-full justify-between items-center px-14 py-2 bg-[#ffff]'>
+            <div className='flex  w-full justify-between items-center lg:px-14 px-2 py-2 bg-[#ffff]'>
                 {/**nike logo */}
                 <img src="../../../../public/img/_1512076803_93_Nike-mobile.jpg" alt=""  className='w-16'/>
                 {/**nike middle link */}
-                <div className='lg:flex sm:hidden'>
+                <div className='lg:block hidden '>
                     <ul className='flex items-center gap-8 text-lg  font-bold'>
                         <li>New & Featured </li>
                         <li>Men</li>
@@ -56,8 +51,8 @@ const Navber = () => {
                     </ul>
                 </div>
                 {/**navber last link */}
-                <div className='lg:flex sm:hidden items-center gap-5'>
-                    <label className=" lg:flex sm:hidden border-2 rounded p-1 bg-[#faf7f7] items-center gap-2">
+                <div className='flex items-center gap-5'>
+                    <label className=" flex  border-2 rounded p-1 bg-[#faf7f7] items-center gap-2">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 16 16"
@@ -70,7 +65,7 @@ const Navber = () => {
                         </svg>
                         <input type="text" className=" border-none outline-none " placeholder="Search ..." />
                     </label>
-                    <li className='list-none'><GrFavorite className='text-xl'/></li>
+                    <li className='list-none sm:block hidden '><GrFavorite className='text-xl'/></li>
                     <li className='list-none'><GrAid className='text-xl'/></li>
                 </div>
             </div>
